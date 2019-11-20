@@ -17,7 +17,6 @@ class Song < ActiveRecord::Base
       drake = Artist.create(name: "Drake")
       self.artist = drake
     end
-    binding.pry
 
   end
 end
